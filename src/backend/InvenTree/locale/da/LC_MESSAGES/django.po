@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-10 01:45+0000\n"
-"PO-Revision-Date: 2026-01-10 01:48\n"
+"POT-Creation-Date: 2026-01-13 06:50+0000\n"
+"PO-Revision-Date: 2026-01-13 23:01\n"
 "Last-Translator: \n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: InvenTree/api.py:472
 msgid "All filter must only be used with true"
-msgstr ""
+msgstr "Alle filtre må kun bruges med sand"
 
 #: InvenTree/api.py:477
 msgid "No items match the provided criteria"
@@ -161,7 +161,7 @@ msgstr "Ingen serienumre fundet"
 #: InvenTree/helpers.py:772
 #, python-brace-format
 msgid "Number of unique serial numbers ({n}) must match quantity ({q})"
-msgstr ""
+msgstr "Antal unikke serienumre ({n}) skal matche antal ({q})"
 
 #: InvenTree/helpers.py:902
 msgid "Remove HTML tags from this value"
@@ -169,7 +169,7 @@ msgstr "Fjern HTML-tags fra denne værdi"
 
 #: InvenTree/helpers.py:981
 msgid "Data contains prohibited markdown content"
-msgstr ""
+msgstr "Data indeholder forbudt markdown indhold"
 
 #: InvenTree/helpers_model.py:139
 msgid "Connection error"
@@ -205,7 +205,7 @@ msgstr "Angivet URL er ikke en gyldig billedfil"
 
 #: InvenTree/magic_login.py:31
 msgid "Log in to the app"
-msgstr ""
+msgstr "Log ind på appen"
 
 #: InvenTree/magic_login.py:41 company/models.py:173 users/serializers.py:201
 msgid "Email"
@@ -351,7 +351,7 @@ msgstr "Vælg valuta fra tilgængelige muligheder"
 
 #: InvenTree/serializers.py:726
 msgid "This field may not be null."
-msgstr ""
+msgstr "Dette felt kan ikke være tomt."
 
 #: InvenTree/serializers.py:732
 msgid "Invalid value"
@@ -694,13 +694,13 @@ msgstr ""
 
 #: build/api.py:461 order/api.py:994 order/api.py:1360
 msgid "Order Outstanding"
-msgstr ""
+msgstr "Ordre Udestående"
 
 #: build/api.py:471 build/serializers.py:1497 order/api.py:953
 msgid "Allocated"
 msgstr "Allokeret"
 
-#: build/api.py:480 build/models.py:1670 build/serializers.py:1420
+#: build/api.py:480 build/models.py:1672 build/serializers.py:1420
 msgid "Consumed"
 msgstr ""
 
@@ -749,7 +749,7 @@ msgstr "Produktionsordrer"
 
 #: build/models.py:169
 msgid "Assembly BOM has not been validated"
-msgstr ""
+msgstr "Monteringens stykliste er ikke blevet valideret"
 
 #: build/models.py:176
 msgid "Build order cannot be created for an inactive part"
@@ -765,7 +765,7 @@ msgstr ""
 
 #: build/models.py:208 order/models.py:370
 msgid "Responsible user or group must be specified"
-msgstr ""
+msgstr "Ansvarlig bruger eller gruppe skal specificeres"
 
 #: build/models.py:213
 msgid "Build order part cannot be changed"
@@ -819,11 +819,11 @@ msgstr "Vælg lokation for lager, som skal benyttes til denne produktion (lad fe
 
 #: build/models.py:302
 msgid "External Build"
-msgstr ""
+msgstr "Ekstern Byg"
 
 #: build/models.py:303
 msgid "This build order is fulfilled externally"
-msgstr ""
+msgstr "Denne byggeordre er gennemført eksternt"
 
 #: build/models.py:308
 msgid "Destination Location"
@@ -1001,15 +1001,15 @@ msgstr ""
 msgid "Cannot partially complete a build output with allocated items"
 msgstr ""
 
-#: build/models.py:1625
+#: build/models.py:1627
 msgid "Build Order Line Item"
 msgstr ""
 
-#: build/models.py:1649
+#: build/models.py:1651
 msgid "Build object"
 msgstr ""
 
-#: build/models.py:1661 build/models.py:1983 build/serializers.py:261
+#: build/models.py:1663 build/models.py:1985 build/serializers.py:261
 #: build/serializers.py:310 build/serializers.py:1419 common/models.py:1344
 #: order/models.py:1758 order/models.py:2598 order/serializers.py:1673
 #: order/serializers.py:2109 part/models.py:3498 part/models.py:4008
@@ -1028,42 +1028,42 @@ msgstr ""
 #: templates/email/build_order_completed.html:18
 #: templates/email/stale_stock_notification.html:19
 msgid "Quantity"
-msgstr ""
+msgstr "Antal"
 
-#: build/models.py:1662
+#: build/models.py:1664
 msgid "Required quantity for build order"
 msgstr ""
 
-#: build/models.py:1671
+#: build/models.py:1673
 msgid "Quantity of consumed stock"
 msgstr ""
 
-#: build/models.py:1769
+#: build/models.py:1771
 msgid "Build item must specify a build output, as master part is marked as trackable"
 msgstr ""
 
-#: build/models.py:1832
+#: build/models.py:1834
 msgid "Selected stock item does not match BOM line"
 msgstr ""
 
-#: build/models.py:1851
+#: build/models.py:1853
 msgid "Allocated quantity must be greater than zero"
 msgstr ""
 
-#: build/models.py:1857
+#: build/models.py:1859
 msgid "Quantity must be 1 for serialized stock"
 msgstr ""
 
-#: build/models.py:1867
+#: build/models.py:1869
 #, python-brace-format
 msgid "Allocated quantity ({q}) must not exceed available stock quantity ({a})"
 msgstr ""
 
-#: build/models.py:1884 order/models.py:2547
+#: build/models.py:1886 order/models.py:2547
 msgid "Stock item is over-allocated"
 msgstr ""
 
-#: build/models.py:1973 build/serializers.py:938 build/serializers.py:1231
+#: build/models.py:1975 build/serializers.py:938 build/serializers.py:1231
 #: order/serializers.py:1510 order/serializers.py:1531
 #: report/templates/report/inventree_sales_order_shipment_report.html:29
 #: stock/api.py:1404 stock/models.py:442 stock/serializers.py:102
@@ -1071,19 +1071,19 @@ msgstr ""
 msgid "Stock Item"
 msgstr "Lagervarer"
 
-#: build/models.py:1974
+#: build/models.py:1976
 msgid "Source stock item"
 msgstr "Kilde lagervare"
 
-#: build/models.py:1984
+#: build/models.py:1986
 msgid "Stock quantity to allocate to build"
 msgstr ""
 
-#: build/models.py:1993
+#: build/models.py:1995
 msgid "Install into"
 msgstr ""
 
-#: build/models.py:1994
+#: build/models.py:1996
 msgid "Destination stock item"
 msgstr ""
 
@@ -1093,7 +1093,7 @@ msgstr ""
 
 #: build/serializers.py:131
 msgid "Part Name"
-msgstr ""
+msgstr "Del Navn"
 
 #: build/serializers.py:209 build/serializers.py:964
 msgid "Build Output"
@@ -1283,12 +1283,12 @@ msgstr ""
 
 #: build/serializers.py:944 stock/serializers.py:1293
 msgid "Item must be in stock"
-msgstr ""
+msgstr "Varen skal være på lager"
 
 #: build/serializers.py:987 order/serializers.py:1564
 #, python-brace-format
 msgid "Available quantity ({q}) exceeded"
-msgstr ""
+msgstr "Tilgængeligt antal ({q}) overskredet"
 
 #: build/serializers.py:993
 msgid "Build output must be specified for allocation of tracked parts"
@@ -1362,11 +1362,11 @@ msgstr "Byg"
 #: order/api.py:321 order/api.py:547 order/serializers.py:594
 #: stock/models.py:1022 stock/serializers.py:567
 msgid "Supplier Part"
-msgstr ""
+msgstr "Leverandør Del"
 
 #: build/serializers.py:1299 stock/serializers.py:620
 msgid "Allocated Quantity"
-msgstr ""
+msgstr "Tildelt Antal"
 
 #: build/serializers.py:1366
 msgid "Build Reference"
@@ -1524,7 +1524,7 @@ msgstr "Ingen plugin"
 
 #: common/filters.py:351
 msgid "Project Code Label"
-msgstr ""
+msgstr "Projekt Kode Label"
 
 #: common/models.py:105 common/models.py:130 common/models.py:3150
 msgid "Updated"
@@ -1544,7 +1544,7 @@ msgstr ""
 
 #: common/models.py:169
 msgid "Unique project code"
-msgstr ""
+msgstr "Unik projekt kode"
 
 #: common/models.py:176
 msgid "Project description"

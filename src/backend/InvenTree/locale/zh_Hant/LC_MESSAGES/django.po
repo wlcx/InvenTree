@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-10 01:45+0000\n"
-"PO-Revision-Date: 2026-01-10 01:48\n"
+"POT-Creation-Date: 2026-01-13 06:50+0000\n"
+"PO-Revision-Date: 2026-01-13 06:53\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -700,7 +700,7 @@ msgstr "訂單未完成"
 msgid "Allocated"
 msgstr "已分配"
 
-#: build/api.py:480 build/models.py:1670 build/serializers.py:1420
+#: build/api.py:480 build/models.py:1672 build/serializers.py:1420
 msgid "Consumed"
 msgstr "已消耗"
 
@@ -1001,15 +1001,15 @@ msgstr "產出 {serial} 未通過所有必要測試"
 msgid "Cannot partially complete a build output with allocated items"
 msgstr ""
 
-#: build/models.py:1625
+#: build/models.py:1627
 msgid "Build Order Line Item"
 msgstr "生產訂單行項目"
 
-#: build/models.py:1649
+#: build/models.py:1651
 msgid "Build object"
 msgstr "生產對象"
 
-#: build/models.py:1661 build/models.py:1983 build/serializers.py:261
+#: build/models.py:1663 build/models.py:1985 build/serializers.py:261
 #: build/serializers.py:310 build/serializers.py:1419 common/models.py:1344
 #: order/models.py:1758 order/models.py:2598 order/serializers.py:1673
 #: order/serializers.py:2109 part/models.py:3498 part/models.py:4008
@@ -1030,40 +1030,40 @@ msgstr "生產對象"
 msgid "Quantity"
 msgstr "數量"
 
-#: build/models.py:1662
+#: build/models.py:1664
 msgid "Required quantity for build order"
 msgstr "生產工單所需數量"
 
-#: build/models.py:1671
+#: build/models.py:1673
 msgid "Quantity of consumed stock"
 msgstr "已消耗庫存數量"
 
-#: build/models.py:1769
+#: build/models.py:1771
 msgid "Build item must specify a build output, as master part is marked as trackable"
 msgstr "生產項必須指定產出，因為主零件已經被標記為可追蹤的"
 
-#: build/models.py:1832
+#: build/models.py:1834
 msgid "Selected stock item does not match BOM line"
 msgstr "選擇的庫存品項和BOM的項目不符"
 
-#: build/models.py:1851
+#: build/models.py:1853
 msgid "Allocated quantity must be greater than zero"
 msgstr ""
 
-#: build/models.py:1857
+#: build/models.py:1859
 msgid "Quantity must be 1 for serialized stock"
 msgstr "有序號的品項數量必須為1"
 
-#: build/models.py:1867
+#: build/models.py:1869
 #, python-brace-format
 msgid "Allocated quantity ({q}) must not exceed available stock quantity ({a})"
 msgstr "分配的數量（{q}）不能超過可用的庫存數量（{a}）"
 
-#: build/models.py:1884 order/models.py:2547
+#: build/models.py:1886 order/models.py:2547
 msgid "Stock item is over-allocated"
 msgstr "庫存品項超額分配"
 
-#: build/models.py:1973 build/serializers.py:938 build/serializers.py:1231
+#: build/models.py:1975 build/serializers.py:938 build/serializers.py:1231
 #: order/serializers.py:1510 order/serializers.py:1531
 #: report/templates/report/inventree_sales_order_shipment_report.html:29
 #: stock/api.py:1404 stock/models.py:442 stock/serializers.py:102
@@ -1071,19 +1071,19 @@ msgstr "庫存品項超額分配"
 msgid "Stock Item"
 msgstr "庫存品項"
 
-#: build/models.py:1974
+#: build/models.py:1976
 msgid "Source stock item"
 msgstr "來源庫存項目"
 
-#: build/models.py:1984
+#: build/models.py:1986
 msgid "Stock quantity to allocate to build"
 msgstr "要分配的庫存數量"
 
-#: build/models.py:1993
+#: build/models.py:1995
 msgid "Install into"
 msgstr "安裝到"
 
-#: build/models.py:1994
+#: build/models.py:1996
 msgid "Destination stock item"
 msgstr "目的庫存品項"
 

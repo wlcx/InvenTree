@@ -8,7 +8,7 @@ msgstr ""
 "Language: fr\n"
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-01-07 03:08\n"
+"PO-Revision-Date: 2026-01-13 23:49\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -50,7 +50,7 @@ msgstr "Supprimer"
 #: src/pages/Index/Settings/AccountSettings/MFASettings.tsx:321
 #: src/pages/Index/Settings/AccountSettings/MFASettings.tsx:412
 #: src/tables/FilterSelectDrawer.tsx:336
-#: src/tables/build/BuildOutputTable.tsx:562
+#: src/tables/build/BuildOutputTable.tsx:560
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -97,12 +97,12 @@ msgstr "Non"
 
 #: lib/enums/ModelInformation.tsx:29
 #: src/components/wizards/OrderPartsWizard.tsx:279
-#: src/forms/BuildForms.tsx:332
-#: src/forms/BuildForms.tsx:407
-#: src/forms/BuildForms.tsx:472
-#: src/forms/BuildForms.tsx:630
-#: src/forms/BuildForms.tsx:793
-#: src/forms/BuildForms.tsx:896
+#: src/forms/BuildForms.tsx:336
+#: src/forms/BuildForms.tsx:411
+#: src/forms/BuildForms.tsx:481
+#: src/forms/BuildForms.tsx:639
+#: src/forms/BuildForms.tsx:802
+#: src/forms/BuildForms.tsx:905
 #: src/forms/PurchaseOrderForms.tsx:850
 #: src/forms/ReturnOrderForms.tsx:242
 #: src/forms/SalesOrderForms.tsx:384
@@ -224,9 +224,9 @@ msgid "Part Categories"
 msgstr "Catégories de composants"
 
 #: lib/enums/ModelInformation.tsx:88
-#: src/forms/BuildForms.tsx:473
-#: src/forms/BuildForms.tsx:633
-#: src/forms/BuildForms.tsx:794
+#: src/forms/BuildForms.tsx:482
+#: src/forms/BuildForms.tsx:642
+#: src/forms/BuildForms.tsx:803
 #: src/forms/SalesOrderForms.tsx:386
 #: src/pages/stock/StockDetail.tsx:1005
 #: src/tables/part/PartTestResultTable.tsx:256
@@ -557,7 +557,7 @@ msgstr "Listes Sélectionnées"
 #: src/components/wizards/ImportPartWizard.tsx:574
 #: src/components/wizards/ImportPartWizard.tsx:719
 #: src/forms/BomForms.tsx:69
-#: src/functions/auth.tsx:643
+#: src/functions/auth.tsx:644
 #: src/pages/ErrorPage.tsx:11
 #: src/pages/Index/Settings/AccountSettings/MFASettings.tsx:315
 #: src/pages/Index/Settings/AccountSettings/MFASettings.tsx:406
@@ -1580,21 +1580,21 @@ msgstr "Connexion réussie"
 
 #: src/components/forms/AuthenticationForm.tsx:81
 #: src/components/forms/AuthenticationForm.tsx:89
-#: src/functions/auth.tsx:132
-#: src/functions/auth.tsx:141
+#: src/functions/auth.tsx:133
+#: src/functions/auth.tsx:142
 msgid "Login failed"
 msgstr "Login invalide"
 
 #: src/components/forms/AuthenticationForm.tsx:82
 #: src/components/forms/AuthenticationForm.tsx:90
 #: src/components/forms/AuthenticationForm.tsx:106
-#: src/functions/auth.tsx:133
-#: src/functions/auth.tsx:313
+#: src/functions/auth.tsx:134
+#: src/functions/auth.tsx:314
 msgid "Check your input and try again."
 msgstr "Vérifiez votre saisie et réessayez."
 
 #: src/components/forms/AuthenticationForm.tsx:100
-#: src/functions/auth.tsx:304
+#: src/functions/auth.tsx:305
 msgid "Mail delivery successful"
 msgstr "Envoi du mail réussi"
 
@@ -1964,7 +1964,7 @@ msgstr "Filtrer par état de validation de ligne"
 
 #: src/components/importer/ImportDataSelector.tsx:374
 #: src/components/wizards/WizardDrawer.tsx:113
-#: src/tables/build/BuildOutputTable.tsx:535
+#: src/tables/build/BuildOutputTable.tsx:533
 msgid "Complete"
 msgstr "Complet"
 
@@ -1984,7 +1984,7 @@ msgstr "Traitement des données"
 #: src/components/importer/ImporterColumnSelector.tsx:230
 #: src/components/items/ErrorItem.tsx:12
 #: src/functions/api.tsx:60
-#: src/functions/auth.tsx:364
+#: src/functions/auth.tsx:365
 msgid "An error occurred"
 msgstr "Une erreur s'est produite"
 
@@ -3042,7 +3042,7 @@ msgstr "Catégorie"
 #: src/components/render/Stock.tsx:36
 #: src/components/render/Stock.tsx:114
 #: src/components/render/Stock.tsx:132
-#: src/forms/BuildForms.tsx:795
+#: src/forms/BuildForms.tsx:804
 #: src/forms/PurchaseOrderForms.tsx:647
 #: src/forms/StockForms.tsx:792
 #: src/forms/StockForms.tsx:839
@@ -3066,16 +3066,16 @@ msgstr "Emplacement"
 #: src/components/render/Stock.tsx:99
 #: src/pages/stock/StockDetail.tsx:198
 #: src/pages/stock/StockDetail.tsx:930
-#: src/tables/build/BuildOutputTable.tsx:107
+#: src/tables/build/BuildOutputTable.tsx:106
 #: src/tables/sales/SalesOrderAllocationTable.tsx:142
 msgid "Serial Number"
 msgstr "Numéro de série"
 
 #: src/components/render/Stock.tsx:104
 #: src/components/wizards/OrderPartsWizard.tsx:377
-#: src/forms/BuildForms.tsx:240
-#: src/forms/BuildForms.tsx:634
-#: src/forms/BuildForms.tsx:797
+#: src/forms/BuildForms.tsx:242
+#: src/forms/BuildForms.tsx:643
+#: src/forms/BuildForms.tsx:806
 #: src/forms/PurchaseOrderForms.tsx:853
 #: src/forms/ReturnOrderForms.tsx:243
 #: src/forms/SalesOrderForms.tsx:387
@@ -3100,9 +3100,9 @@ msgid "Quantity"
 msgstr "Quantité"
 
 #: src/components/render/Stock.tsx:117
-#: src/forms/BuildForms.tsx:335
-#: src/forms/BuildForms.tsx:410
-#: src/forms/BuildForms.tsx:474
+#: src/forms/BuildForms.tsx:339
+#: src/forms/BuildForms.tsx:414
+#: src/forms/BuildForms.tsx:483
 #: src/forms/StockForms.tsx:793
 #: src/forms/StockForms.tsx:840
 #: src/forms/StockForms.tsx:893
@@ -4383,22 +4383,22 @@ msgstr "Alternative ajoutée"
 #~ msgid "Remove output"
 #~ msgstr "Remove output"
 
-#: src/forms/BuildForms.tsx:333
-#: src/forms/BuildForms.tsx:408
-#: src/forms/BuildForms.tsx:685
+#: src/forms/BuildForms.tsx:337
+#: src/forms/BuildForms.tsx:412
+#: src/forms/BuildForms.tsx:694
 #: src/tables/build/BuildAllocatedStockTable.tsx:147
-#: src/tables/build/BuildOutputTable.tsx:584
+#: src/tables/build/BuildOutputTable.tsx:582
 #: src/tables/part/PartTestResultTable.tsx:280
 msgid "Build Output"
 msgstr "Sortie de la construction"
 
-#: src/forms/BuildForms.tsx:334
+#: src/forms/BuildForms.tsx:338
 msgid "Quantity to Complete"
 msgstr ""
 
-#: src/forms/BuildForms.tsx:336
-#: src/forms/BuildForms.tsx:411
-#: src/forms/BuildForms.tsx:475
+#: src/forms/BuildForms.tsx:340
+#: src/forms/BuildForms.tsx:415
+#: src/forms/BuildForms.tsx:484
 #: src/forms/PurchaseOrderForms.tsx:769
 #: src/forms/ReturnOrderForms.tsx:197
 #: src/forms/ReturnOrderForms.tsx:244
@@ -4411,7 +4411,7 @@ msgstr ""
 #: src/pages/sales/SalesOrderDetail.tsx:126
 #: src/pages/stock/StockDetail.tsx:170
 #: src/tables/Filter.tsx:274
-#: src/tables/build/BuildOutputTable.tsx:406
+#: src/tables/build/BuildOutputTable.tsx:404
 #: src/tables/machine/MachineListTable.tsx:387
 #: src/tables/part/PartPurchaseOrdersTable.tsx:38
 #: src/tables/part/PartTestResultTable.tsx:317
@@ -4425,11 +4425,11 @@ msgstr ""
 msgid "Status"
 msgstr "Status"
 
-#: src/forms/BuildForms.tsx:358
+#: src/forms/BuildForms.tsx:362
 msgid "Complete Build Outputs"
 msgstr "Sorties de Fabrication terminées"
 
-#: src/forms/BuildForms.tsx:361
+#: src/forms/BuildForms.tsx:365
 msgid "Build outputs have been completed"
 msgstr "Les fabrication  ont été achevé"
 
@@ -4437,24 +4437,24 @@ msgstr "Les fabrication  ont été achevé"
 #~ msgid "Selected build outputs will be deleted"
 #~ msgstr "Selected build outputs will be deleted"
 
-#: src/forms/BuildForms.tsx:409
+#: src/forms/BuildForms.tsx:413
 msgid "Quantity to Scrap"
 msgstr ""
 
-#: src/forms/BuildForms.tsx:429
-#: src/forms/BuildForms.tsx:431
+#: src/forms/BuildForms.tsx:433
+#: src/forms/BuildForms.tsx:435
 msgid "Scrap Build Outputs"
 msgstr "Éliminer les résultats de construction"
 
-#: src/forms/BuildForms.tsx:434
+#: src/forms/BuildForms.tsx:438
 msgid "Selected build outputs will be completed, but marked as scrapped"
 msgstr "Les sorties de fabrication sélectionnées vont être terminées mais marquées comme rebus"
 
-#: src/forms/BuildForms.tsx:436
+#: src/forms/BuildForms.tsx:440
 msgid "Allocated stock items will be consumed"
 msgstr "Les articles en stock vont être consommés"
 
-#: src/forms/BuildForms.tsx:442
+#: src/forms/BuildForms.tsx:446
 msgid "Build outputs have been scrapped"
 msgstr "Les résultats de construction ont été supprimé"
 
@@ -4462,24 +4462,24 @@ msgstr "Les résultats de construction ont été supprimé"
 #~ msgid "Remove line"
 #~ msgstr "Remove line"
 
-#: src/forms/BuildForms.tsx:485
-#: src/forms/BuildForms.tsx:487
+#: src/forms/BuildForms.tsx:494
+#: src/forms/BuildForms.tsx:496
 msgid "Cancel Build Outputs"
 msgstr "Annuler les résultats de construction"
 
-#: src/forms/BuildForms.tsx:489
+#: src/forms/BuildForms.tsx:498
 msgid "Selected build outputs will be removed"
 msgstr "Les sorties de fabrication sélectionnées vont être supprimées"
 
-#: src/forms/BuildForms.tsx:491
+#: src/forms/BuildForms.tsx:500
 msgid "Allocated stock items will be returned to stock"
 msgstr "Les articles en stock alloués vont être remis dans le stock"
 
-#: src/forms/BuildForms.tsx:498
+#: src/forms/BuildForms.tsx:507
 msgid "Build outputs have been cancelled"
 msgstr "Les résultats de construction ont été annulés"
 
-#: src/forms/BuildForms.tsx:631
+#: src/forms/BuildForms.tsx:640
 #: src/pages/build/BuildDetail.tsx:208
 #: src/pages/company/ManufacturerPartDetail.tsx:84
 #: src/pages/company/SupplierPartDetail.tsx:97
@@ -4501,9 +4501,9 @@ msgstr "Les résultats de construction ont été annulés"
 msgid "IPN"
 msgstr "IPN"
 
-#: src/forms/BuildForms.tsx:632
-#: src/forms/BuildForms.tsx:796
-#: src/forms/BuildForms.tsx:897
+#: src/forms/BuildForms.tsx:641
+#: src/forms/BuildForms.tsx:805
+#: src/forms/BuildForms.tsx:906
 #: src/forms/SalesOrderForms.tsx:385
 #: src/tables/build/BuildAllocatedStockTable.tsx:129
 #: src/tables/build/BuildLineTable.tsx:183
@@ -4512,19 +4512,19 @@ msgstr "IPN"
 msgid "Allocated"
 msgstr "Allouée"
 
-#: src/forms/BuildForms.tsx:667
+#: src/forms/BuildForms.tsx:676
 #: src/forms/SalesOrderForms.tsx:374
 #: src/pages/build/BuildDetail.tsx:109
 #: src/pages/build/BuildDetail.tsx:327
 msgid "Source Location"
 msgstr "Emplacement d'origine"
 
-#: src/forms/BuildForms.tsx:668
+#: src/forms/BuildForms.tsx:677
 #: src/forms/SalesOrderForms.tsx:375
 msgid "Select the source location for the stock allocation"
 msgstr "Sélectionnez l'emplacement de la source pour l'allocation du stock"
 
-#: src/forms/BuildForms.tsx:700
+#: src/forms/BuildForms.tsx:709
 #: src/forms/SalesOrderForms.tsx:415
 #: src/tables/build/BuildLineTable.tsx:575
 #: src/tables/build/BuildLineTable.tsx:738
@@ -4534,13 +4534,18 @@ msgstr "Sélectionnez l'emplacement de la source pour l'allocation du stock"
 msgid "Allocate Stock"
 msgstr "Stock alloué"
 
-#: src/forms/BuildForms.tsx:703
+#: src/forms/BuildForms.tsx:712
 #: src/forms/SalesOrderForms.tsx:420
 msgid "Stock items allocated"
 msgstr "Éléments du stock alloués"
 
-#: src/forms/BuildForms.tsx:816
-#: src/forms/BuildForms.tsx:917
+#: src/forms/BuildForms.tsx:817
+#: src/forms/BuildForms.tsx:918
+#~ msgid "Stock items consumed"
+#~ msgstr "Stock items consumed"
+
+#: src/forms/BuildForms.tsx:825
+#: src/forms/BuildForms.tsx:926
 #: src/tables/build/BuildAllocatedStockTable.tsx:243
 #: src/tables/build/BuildAllocatedStockTable.tsx:279
 #: src/tables/build/BuildLineTable.tsx:748
@@ -4548,23 +4553,18 @@ msgstr "Éléments du stock alloués"
 msgid "Consume Stock"
 msgstr "Consommer le stock"
 
-#: src/forms/BuildForms.tsx:817
-#: src/forms/BuildForms.tsx:918
+#: src/forms/BuildForms.tsx:826
+#: src/forms/BuildForms.tsx:927
 msgid "Stock items scheduled to be consumed"
 msgstr ""
 
-#: src/forms/BuildForms.tsx:817
-#: src/forms/BuildForms.tsx:918
-#~ msgid "Stock items consumed"
-#~ msgstr "Stock items consumed"
-
-#: src/forms/BuildForms.tsx:853
+#: src/forms/BuildForms.tsx:862
 #: src/tables/build/BuildLineTable.tsx:515
 #: src/tables/part/PartBuildAllocationsTable.tsx:101
 msgid "Fully consumed"
 msgstr "Complétement consommé"
 
-#: src/forms/BuildForms.tsx:898
+#: src/forms/BuildForms.tsx:907
 #: src/tables/build/BuildLineTable.tsx:188
 #: src/tables/stock/StockItemTable.tsx:367
 msgid "Consumed"
@@ -4700,7 +4700,7 @@ msgstr "Stocker avec le stock déjà reçu"
 #: src/pages/stock/StockDetail.tsx:952
 #: src/tables/Filter.tsx:83
 #: src/tables/build/BuildAllocatedStockTable.tsx:118
-#: src/tables/build/BuildOutputTable.tsx:112
+#: src/tables/build/BuildOutputTable.tsx:111
 #: src/tables/part/PartTestResultTable.tsx:268
 #: src/tables/part/PartTestResultTable.tsx:289
 #: src/tables/sales/SalesOrderAllocationTable.tsx:149
@@ -5071,18 +5071,13 @@ msgstr "Erreur de serveur interne"
 #~ msgid "You have been logged out"
 #~ msgstr "You have been logged out"
 
-#: src/functions/auth.tsx:123
-#: src/functions/auth.tsx:344
-msgid "Already logged in"
-msgstr "Déjà connecté"
-
 #: src/functions/auth.tsx:124
-#: src/functions/auth.tsx:345
-msgid "There is a conflicting session on the server for this browser. Please logout of that first."
-msgstr "Il y a un conflit de session sur ce serveur pour ce navigateur. Veuillez d'abord vous déconnecter."
+#: src/functions/auth.tsx:210
+msgid "Logged Out"
+msgstr "Déconnexion"
 
-#: src/functions/auth.tsx:142
-msgid "No response from server."
+#: src/functions/auth.tsx:125
+msgid "There was a conflicting session for this browser, which has been logged out."
 msgstr ""
 
 #: src/functions/auth.tsx:142
@@ -5090,80 +5085,88 @@ msgstr ""
 #~ msgstr "Found an existing login - using it to log you in."
 
 #: src/functions/auth.tsx:143
+msgid "No response from server."
+msgstr ""
+
+#: src/functions/auth.tsx:143
 #~ msgid "Found an existing login - welcome back!"
 #~ msgstr "Found an existing login - welcome back!"
 
-#: src/functions/auth.tsx:179
+#: src/functions/auth.tsx:180
 msgid "MFA Login successful"
 msgstr "Connections réussie via MFA"
 
-#: src/functions/auth.tsx:180
+#: src/functions/auth.tsx:181
 msgid "MFA details were automatically provided in the browser"
 msgstr "Les informations pour la MFA ont été automatiquement fournis par le navigateur"
 
-#: src/functions/auth.tsx:209
-msgid "Logged Out"
-msgstr "Déconnexion"
-
-#: src/functions/auth.tsx:210
+#: src/functions/auth.tsx:211
 msgid "Successfully logged out"
 msgstr "Déconnexion réussie !"
 
-#: src/functions/auth.tsx:249
+#: src/functions/auth.tsx:250
 msgid "Language changed"
 msgstr "Langue changée"
 
-#: src/functions/auth.tsx:250
+#: src/functions/auth.tsx:251
 msgid "Your active language has been changed to the one set in your profile"
 msgstr "Votre langue active a été remplacée en celle qui est définie dans votre profil"
 
-#: src/functions/auth.tsx:270
+#: src/functions/auth.tsx:271
 msgid "Theme changed"
 msgstr "Thème changé"
 
-#: src/functions/auth.tsx:271
+#: src/functions/auth.tsx:272
 msgid "Your active theme has been changed to the one set in your profile"
 msgstr "Votre thème actif a été remplacé par celui défini dans votre profil"
 
-#: src/functions/auth.tsx:305
+#: src/functions/auth.tsx:306
 msgid "Check your inbox for a reset link. This only works if you have an account. Check in spam too."
 msgstr "Vérifiez votre boîte de réception pour un lien de réinitialisation. Cela ne fonctionne que si vous avez un compte. Vérifiez également dans le spam."
 
-#: src/functions/auth.tsx:312
-#: src/functions/auth.tsx:569
+#: src/functions/auth.tsx:313
+#: src/functions/auth.tsx:570
 msgid "Reset failed"
 msgstr "Échec de la réinitialisation"
 
-#: src/functions/auth.tsx:401
+#: src/functions/auth.tsx:345
+msgid "Already logged in"
+msgstr "Déjà connecté"
+
+#: src/functions/auth.tsx:346
+msgid "There is a conflicting session on the server for this browser. Please logout of that first."
+msgstr "Il y a un conflit de session sur ce serveur pour ce navigateur. Veuillez d'abord vous déconnecter."
+
+#: src/functions/auth.tsx:402
 msgid "Logged In"
 msgstr "Connecté"
 
-#: src/functions/auth.tsx:402
+#: src/functions/auth.tsx:403
 msgid "Successfully logged in"
 msgstr "Vous êtes connecté(e)"
 
-#: src/functions/auth.tsx:529
+#: src/functions/auth.tsx:530
 msgid "Failed to set up MFA"
 msgstr "Échec de la mise en place de l'AMF"
 
-#: src/functions/auth.tsx:559
+#: src/functions/auth.tsx:560
 msgid "Password set"
 msgstr "Mot de passe défini"
 
-#: src/functions/auth.tsx:560
-#: src/functions/auth.tsx:669
+#: src/functions/auth.tsx:561
+#: src/functions/auth.tsx:670
 msgid "The password was set successfully. You can now login with your new password"
 msgstr "Votre mot de passe a été modifié avec succès. Vous pouvez maintenant vous connecter avec votre nouveau mot de passe"
 
-#: src/functions/auth.tsx:634
+#: src/functions/auth.tsx:635
 msgid "Password could not be changed"
 msgstr "Le mot de passe n'a pas pu être changé"
 
-#: src/functions/auth.tsx:652
+#: src/functions/auth.tsx:653
 msgid "The two password fields didn’t match"
 msgstr "Les deux mots de passes ne corrspondent pas"
 
-#: src/functions/auth.tsx:668
+#: src/functions/auth.tsx:669
 msgid "Password Changed"
 msgstr "Mot de passe changé"
 
@@ -7069,7 +7072,7 @@ msgstr "Ordre de fabrication enfant"
 #: src/pages/build/BuildDetail.tsx:514
 #: src/pages/part/PartDetail.tsx:933
 #: src/pages/stock/StockDetail.tsx:587
-#: src/tables/build/BuildOutputTable.tsx:656
+#: src/tables/build/BuildOutputTable.tsx:654
 #: src/tables/stock/StockItemTestResultTable.tsx:173
 msgid "Test Results"
 msgstr "Résultats des Tests"
@@ -8804,7 +8807,7 @@ msgstr "Opérations sur le stock"
 #~ msgstr "Count stock"
 
 #: src/pages/stock/StockDetail.tsx:871
-#: src/tables/build/BuildOutputTable.tsx:524
+#: src/tables/build/BuildOutputTable.tsx:522
 msgid "Serialize"
 msgstr "Sérialiser"
 
@@ -9152,12 +9155,12 @@ msgstr "Ajouter un filtre"
 msgid "Clear Filters"
 msgstr "Effacer filtres"
 
-#: src/tables/InvenTreeTable.tsx:45
-#: src/tables/InvenTreeTable.tsx:488
+#: src/tables/InvenTreeTable.tsx:46
+#: src/tables/InvenTreeTable.tsx:481
 msgid "No records found"
 msgstr "Pas d'enregistrement trouvé"
 
-#: src/tables/InvenTreeTable.tsx:152
+#: src/tables/InvenTreeTable.tsx:153
 msgid "Error loading table options"
 msgstr "Impossible de charger la table des options"
 
@@ -9169,7 +9172,7 @@ msgstr "Impossible de charger la table des options"
 #~ msgid "Are you sure you want to delete the selected records?"
 #~ msgstr "Are you sure you want to delete the selected records?"
 
-#: src/tables/InvenTreeTable.tsx:529
+#: src/tables/InvenTreeTable.tsx:522
 msgid "Server returned incorrect data type"
 msgstr "Le serveur à retourner un type de donnée incorrect"
 
@@ -9189,7 +9192,7 @@ msgstr "Le serveur à retourner un type de donnée incorrect"
 #~ msgid "This action cannot be undone!"
 #~ msgstr "This action cannot be undone!"
 
-#: src/tables/InvenTreeTable.tsx:562
+#: src/tables/InvenTreeTable.tsx:555
 msgid "Error loading table data"
 msgstr "Impossible de charger le tableau de données"
 
@@ -9203,11 +9206,11 @@ msgstr "Impossible de charger le tableau de données"
 #~ msgid "Barcode actions"
 #~ msgstr "Barcode actions"
 
-#: src/tables/InvenTreeTable.tsx:691
+#: src/tables/InvenTreeTable.tsx:684
 msgid "View details"
 msgstr "Vue des détails"
 
-#: src/tables/InvenTreeTable.tsx:694
+#: src/tables/InvenTreeTable.tsx:687
 msgid "View {model}"
 msgstr ""
 
@@ -9716,8 +9719,8 @@ msgstr "Attribuer automatiquement du stock à ce bâtiment en fonction des optio
 #: src/tables/build/BuildLineTable.tsx:631
 #: src/tables/build/BuildLineTable.tsx:758
 #: src/tables/build/BuildLineTable.tsx:859
-#: src/tables/build/BuildOutputTable.tsx:357
-#: src/tables/build/BuildOutputTable.tsx:362
+#: src/tables/build/BuildOutputTable.tsx:355
+#: src/tables/build/BuildOutputTable.tsx:360
 msgid "Deallocate Stock"
 msgstr "Désallouer le stock"
 
@@ -9801,7 +9804,7 @@ msgstr "Afficher les commandes avec une date de début"
 #~ msgid "Filter by user who issued this order"
 #~ msgstr "Filter by user who issued this order"
 
-#: src/tables/build/BuildOutputTable.tsx:100
+#: src/tables/build/BuildOutputTable.tsx:99
 msgid "Build Output Stock Allocation"
 msgstr "Allocation du stock de sortie de construction"
 
@@ -9809,12 +9812,12 @@ msgstr "Allocation du stock de sortie de construction"
 #~ msgid "Delete build output"
 #~ msgstr "Delete build output"
 
-#: src/tables/build/BuildOutputTable.tsx:292
-#: src/tables/build/BuildOutputTable.tsx:477
+#: src/tables/build/BuildOutputTable.tsx:290
+#: src/tables/build/BuildOutputTable.tsx:475
 msgid "Add Build Output"
 msgstr "Ajouter une sortie de construction"
 
-#: src/tables/build/BuildOutputTable.tsx:295
+#: src/tables/build/BuildOutputTable.tsx:293
 msgid "Build output created"
 msgstr "Sorties de fabrication créées"
 
@@ -9822,42 +9825,42 @@ msgstr "Sorties de fabrication créées"
 #~ msgid "Edit build output"
 #~ msgstr "Edit build output"
 
-#: src/tables/build/BuildOutputTable.tsx:348
-#: src/tables/build/BuildOutputTable.tsx:545
+#: src/tables/build/BuildOutputTable.tsx:346
+#: src/tables/build/BuildOutputTable.tsx:543
 msgid "Edit Build Output"
 msgstr "Modifier une sortie de construction"
 
-#: src/tables/build/BuildOutputTable.tsx:364
+#: src/tables/build/BuildOutputTable.tsx:362
 msgid "This action will deallocate all stock from the selected build output"
 msgstr "Cette action désaffecte tous les stocks de la production sélectionnée"
 
-#: src/tables/build/BuildOutputTable.tsx:389
+#: src/tables/build/BuildOutputTable.tsx:387
 msgid "Serialize Build Output"
 msgstr "Sérialiser la sortie de fabrication"
 
-#: src/tables/build/BuildOutputTable.tsx:407
+#: src/tables/build/BuildOutputTable.tsx:405
 #: src/tables/part/PartTestResultTable.tsx:318
 #: src/tables/stock/StockItemTable.tsx:328
 msgid "Filter by stock status"
 msgstr "Filtrer par état du stock"
 
-#: src/tables/build/BuildOutputTable.tsx:444
+#: src/tables/build/BuildOutputTable.tsx:442
 msgid "Complete selected outputs"
 msgstr "Compléter les sorties sélectionnées"
 
-#: src/tables/build/BuildOutputTable.tsx:455
+#: src/tables/build/BuildOutputTable.tsx:453
 msgid "Scrap selected outputs"
 msgstr "Mise au rebut des sorties sélectionnées"
 
-#: src/tables/build/BuildOutputTable.tsx:466
+#: src/tables/build/BuildOutputTable.tsx:464
 msgid "Cancel selected outputs"
 msgstr "Annuler les sorties sélectionnées"
 
-#: src/tables/build/BuildOutputTable.tsx:496
+#: src/tables/build/BuildOutputTable.tsx:494
 msgid "Allocate"
 msgstr "Allouer"
 
-#: src/tables/build/BuildOutputTable.tsx:497
+#: src/tables/build/BuildOutputTable.tsx:495
 msgid "Allocate stock to build output"
 msgstr "Allouer des stock à la sortie de construction"
 
@@ -9865,47 +9868,47 @@ msgstr "Allouer des stock à la sortie de construction"
 #~ msgid "View Build Output"
 #~ msgstr "View Build Output"
 
-#: src/tables/build/BuildOutputTable.tsx:510
+#: src/tables/build/BuildOutputTable.tsx:508
 msgid "Deallocate"
 msgstr "Désallouer"
 
-#: src/tables/build/BuildOutputTable.tsx:511
+#: src/tables/build/BuildOutputTable.tsx:509
 msgid "Deallocate stock from build output"
 msgstr "Désallouer le stock de la sortie de la construction"
 
-#: src/tables/build/BuildOutputTable.tsx:525
+#: src/tables/build/BuildOutputTable.tsx:523
 msgid "Serialize build output"
 msgstr "Sérialiser la sortie de fabrication"
 
-#: src/tables/build/BuildOutputTable.tsx:536
+#: src/tables/build/BuildOutputTable.tsx:534
 msgid "Complete build output"
 msgstr "Résultats complets de la construction"
 
-#: src/tables/build/BuildOutputTable.tsx:552
+#: src/tables/build/BuildOutputTable.tsx:550
 msgid "Scrap"
 msgstr "Rébut"
 
-#: src/tables/build/BuildOutputTable.tsx:553
+#: src/tables/build/BuildOutputTable.tsx:551
 msgid "Scrap build output"
 msgstr "Sortie de la construction de la ferraille"
 
-#: src/tables/build/BuildOutputTable.tsx:563
+#: src/tables/build/BuildOutputTable.tsx:561
 msgid "Cancel build output"
 msgstr "Annuler la sortie de la construction"
 
-#: src/tables/build/BuildOutputTable.tsx:612
+#: src/tables/build/BuildOutputTable.tsx:610
 msgid "Allocated Lines"
 msgstr "Lignes allouées"
 
-#: src/tables/build/BuildOutputTable.tsx:627
+#: src/tables/build/BuildOutputTable.tsx:625
 msgid "Required Tests"
 msgstr "Tests requis"
 
-#: src/tables/build/BuildOutputTable.tsx:702
+#: src/tables/build/BuildOutputTable.tsx:700
 msgid "External Build"
 msgstr "Fabrication extérieure"
 
-#: src/tables/build/BuildOutputTable.tsx:704
+#: src/tables/build/BuildOutputTable.tsx:702
 msgid "This build order is fulfilled by an external purchase order"
 msgstr "Cet ordre de fabrication est satisfait par un ordre d'achat externe"
 
