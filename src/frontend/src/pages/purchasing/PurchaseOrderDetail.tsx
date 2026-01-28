@@ -262,6 +262,14 @@ export default function PurchaseOrderDetail() {
         label: t`Responsible`,
         badge: 'owner',
         hidden: !order.responsible
+      },
+      {
+        type: 'text',
+        name: 'created_by.pk',
+        label: t`Created By`,
+        badge: 'user',
+        icon: 'user',
+        hidden: !order.created_by?.pk
       }
     ];
 
